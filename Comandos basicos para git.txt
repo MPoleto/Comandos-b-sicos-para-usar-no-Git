@@ -1,0 +1,63 @@
+Comandos básicos para usar no Git
+
+'cd' - chance directory - navegação entre as pastas.
+
+'cd /' - diretório C.
+
+'cd ..' - retrocede um nível (uma pasta).
+
+'cls' - clear screen - limpa a janela (Windows) -> 'clear' ou "ctrl+L" (Linux).
+
+'del' - deleta arquivos, não repositórios/pastas.
+
+'dir' - listar arquivos e pastas (Windows) -> 'ls' (Linux).
+
+'echo' + texto - printa devolta na tela um texto que foi digitado (ex.: echo recipe) 
+
+'echo' + texto > arquivo.txt - criar arquivo (ex.: echo recipe > recipe.txt).
+
+'ls -a' - lista todas as pastas, incluindo as ocultas.
+
+'mkdir' - make directory - criar pasta ("mkdir + nome da nova pasta" - Windows).
+
+'mv' + arquivo + ./pasta para onde vai mover/ - move o arquivo.
+
+'rmdir' + nomepasta + /S /Q- remove directory - excluir repositório/pasta. Adicionar 2 flags '/S' e '/Q' -> 'rm -rf' (Linux).
+
+'pwd' - mostra caminho/endereço da pasta que está sendo usada.
+
+"seta para cima" (tecla) - navega entre o histórico de comandos já executados.
+
+"tab" (tecla) - auto completar.
+
+'git add' + nomearquivo - adiciona arquivo modificado para ser commitado.
+
+'git add *' - (* ou .) - pega todos os arquivos modificados para ser commitado.
+
+'git init' - inicia o git dentro da pasta, cria uma pasta oculta gerencial do git.
+
+'git clone' + link - copia um repositório remoto (GitHub).
+
+'git commit -m' + "mensagem"- commitar arquivo com mensagem, entre aspas.
+
+'git config --list' - configurações do git.
+
+'git config --global user.email' + "email" - configurar o git, cadastrar o email, entre aspas (preferencialmente o mesmo do GitHub).
+
+'git config --global user.name' + nome - configurar o git, cadastrar o nome (preferencialmente o mesmo do GitHub).
+
+'git config --global -unset user.email' - excluir e-mail cadastrado.
+
+'git config --global -unset user.name' - excluir nome de usuário cadastrado.
+
+'git push origin master' - empurra o repositório local para o remoto. 'origin' é o apelido dado ao link do GitHub e 'master' é o nome da branch.
+
+'git pull origin master' - puxa para o repositório local o que está no remoto (GitHub).
+
+'git remote add origin' + link - adicionar a origem remota para onde os arquivos serão enviados, usa o link do repositório criado no GitHub.
+
+'git remote -v' - lista os repositórios remotos cadastrados.
+
+'git status' - mostra se algum arquivo ainda não foi commitado, mostra se o arquivo está untracked, modified ou staged.
+
+
